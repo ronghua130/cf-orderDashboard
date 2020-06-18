@@ -1,0 +1,13 @@
+coffeeshop\OrderCanceled.class
+coffeeshop\Application.class
+coffeeshop\OrderPlaced.class
+coffeeshop\OrderDashboardViewHandler.class
+coffeeshop\PolicyHandler.class
+coffeeshop\Paid.class
+coffeeshop\MakeCompleted.class
+coffeeshop\AbstractEvent.class
+coffeeshop\MakeStarted.class
+coffeeshop\config\kafka\KafkaProcessor.class
+coffeeshop\OrderDashboard.class
+coffeeshop\OrderDashboardRepository.class
+coffeeshop\AbstractEvent$1.class
