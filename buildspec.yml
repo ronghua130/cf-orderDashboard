@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    _PROJECT_NAME: "orderDashboard"
+    _PROJECT_NAME: "orderdashboard"
 
 phases:
   install:
