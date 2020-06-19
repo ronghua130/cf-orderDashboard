@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: orderStatus
+  name: orderdashboard
   labels:
-    app: orderStatus
+    app: orderdashboard
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: orderStatus
+      app: orderdashboard
   template:
     metadata:
       labels:
-        app: orderStatus
+        app: orderdashboard
     spec:
       containers:
-        - name: orderStatus
-          image: username/orderStatus:latest
+        - name: orderdashboard
+          image: username/orderdashboard:latest
           ports:
             - containerPort: 8080
           readinessProbe:
